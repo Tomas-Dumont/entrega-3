@@ -77,10 +77,6 @@ body {
     color: #E8871E;
 }
 
-
-
-
-/* Barra de Búsqueda */
 .search-box {
     padding: 10px;
     border: 1px solid black;
@@ -185,14 +181,7 @@ body {
     padding: 100px 0;
 }
 
-.offers h2 {
-    font-size: 80px;
-    line-height: 80px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 30px;
-    color: black;
-}
+
 
 .ofertas {
     display: flex;

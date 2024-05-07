@@ -1,0 +1,36 @@
+.header {
+    .header-content {
+        text-align: center;
+
+        h1 {
+            font-size: 75px;
+            line-height: 80px;
+            color: black;
+            text-transform: uppercase;
+            margin-bottom: 35px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #C5C5C5;
+            padding: 0 250px;
+            margin-bottom: 25px;
+        }
+
+        ul {
+            li {
+                a {
+                    display: inline-block;
+                    padding: 11px 35px;
+                    color: white;
+                    background-color: #E8871E;
+                    border-radius: 5%;
+                }
+
+                a:hover {
+                    background-color: #EDB458;
+                }
+            }
+        }
+    }
+}

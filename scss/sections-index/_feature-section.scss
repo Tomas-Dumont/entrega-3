@@ -1,0 +1,34 @@
+.main-content{
+    background-color:  whitesmoke;
+    .section-index{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        padding: 3rem 0;
+        .card-feature{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 1.5rem 0;
+            background-color: white;
+            border-radius: 1rem;
+            ion-icon{
+                font-size: 2.7rem;
+            
+            }
+            .feature-content{
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                span{
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                }
+                p{
+                    font-weight: 500;
+                }
+            }
+        }        
+    }
+}
